@@ -83,12 +83,12 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.25.1)
     multi_json (1.11.0)
-    mysql2 (0.3.18)
     paperclip (2.8.0)
       activerecord (>= 2.3.0)
       activesupport (>= 2.3.2)
       cocaine (>= 0.0.2)
       mime-types
+    pg (0.18.1)
     polyglot (0.3.5)
     rack (1.4.5)
     rack-cache (1.2)
@@ -146,5 +146,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  mysql2
+  pg
   wagn
